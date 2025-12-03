@@ -7,7 +7,7 @@ if (selection == 1) {
 }
 
 if (selection == 2) {
-  console.log("You get Watter");
+  console.log("You get Water");
 }
 
 if (selection == 3) {
@@ -19,5 +19,17 @@ if (selection == 4) {
 }
 
 if (selection == 3) {
-  console.log("Thanks for your Besttelung");
+  console.log("Thanks for your order");
+}
+
+if (selection == 4) {
+  console.log("Is it really that cold???");
+}
+
+if (selection == 2) {
+  console.log("It is very gesund");
+}
+
+if (selection == 1) {
+  console.log("Be careful there is much suggar in it");
 }
