@@ -7,10 +7,11 @@
   display: flex;
   justify-content: space-between;
   background-color: black;
-  height: 90px;
+  height: 100px;
   color: white;
   border-style: solid;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .left li {
@@ -42,8 +43,11 @@
 }
 
 .under {
-  background-image:  url("https://www.mercedes-benz.at/content/dam/austria/passengercars/campaigns/taktik-q2-2026/Stage.jpg/1775558101146.jpg?im=Crop,rect=(1438,719,5250,5250);Resize=(800,800)");
-  width: 20px;
-  height: 100px;
+  background-image: url("https://www.mercedes-benz.at/content/dam/austria/passengercars/campaigns/taktik-q2-2026/Stage.jpg/1775558101146.jpg?im=Crop,rect=(1438,719,5250,5250);Resize=(800,800)");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 565px;
 }
+
 
