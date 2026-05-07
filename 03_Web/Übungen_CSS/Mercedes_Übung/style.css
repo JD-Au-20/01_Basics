@@ -10,6 +10,7 @@
   height: 100px;
   color: white;
   border-style: solid;
+  border-color: black;
   align-items: center;
   box-sizing: border-box;
 }
@@ -48,6 +49,73 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 565px;
+  position: relative;
 }
 
+.filter {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.6) 25%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0) 75%
+  );
+}
 
+.final {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.uptext {
+  color: white;
+  font-size: 60px;
+  margin-left: 70px;
+}
+
+.upitext {
+  color: white;
+  font-size: 60px;
+  margin-left: 70px;
+}
+
+.upiitext {
+  color: white;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.upiiitext {
+  color: white;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.upiiiitext {
+  color: white;
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.finall {
+  position: absolute;
+  margin-top: 350px;
+  background-color: rgb(6, 93, 174);
+  left: 70px;
+  height: 70px;
+  width: 210px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.down {
+  color: white;
+  font-size: 27px;
+  position: relative;
+  left: 0px;
+  left: 15px;
+}
